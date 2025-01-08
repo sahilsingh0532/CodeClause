@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height: 100vh;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: #c5c2c2;
+        }
+        
+        label{
+            background-color: #ffffff83;
+            border: solid #000;
+            width: 90px;
+            text-align: center;
+            border-radius: 30px;
+            text-align: center;
+            padding: 15px;
+        }
+        
+        input{
+            height: 60px;
+            width: 60px;
+            padding: 0;
+            border: none;
+            background-color: transparent;
+            outline: none;
+            border-radius: 50%;
+        }
+
+        .first::-webkit-color-swatch,
+        .second::-webkit-color-swatch{
+            border-radius: 50%;
+            border: 4px solid #888;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Background Generator</h1>
+    <div class="content">
+
+    <div class="color">
+        <label>Color 1</label>
+        <input type="color" class="first" value="#ffffff">
+        <label>Color 2</label>
+        <input type="color" class="second"value="#ffffff">
+        
+    </div>
+    <!-- <button>
+        <h4>copy</h4>
+    </button> -->
+    <script src="script.js"></script>
+</body>
+</html>
